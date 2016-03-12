@@ -38,7 +38,9 @@
         "bosnadev/repositories": "0.*",
         "sroutier/eloquent-ldap": "^1.0@dev",
         "zofe/rapyd": "2.1.*",
-        "baum/baum": "~1.1"
+        "baum/baum": "~1.1",
+        "huddledigital/zendesk-laravel": "~2.0",
+        "rossedman/teamwork": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

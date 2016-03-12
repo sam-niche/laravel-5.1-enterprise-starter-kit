@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY', 'nIcheprov*derg72*te8hrth'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -150,6 +150,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        'Huddle\Zendesk\Providers\ZendeskServiceProvider',
+        // 'Rossedman\Teamwork\TeamworkServiceProvider',
 
         /*
          * Application Service Providers...
@@ -224,6 +226,8 @@ return [
         'Theme'       => YAAP\Theme\Facades\Theme::class,
         'Entrust'     => Zizaco\Entrust\EntrustFacade::class,
         'MenuBuilder' => App\Facades\MenuBuilderFacade::class,
+        'Zendesk'    => 'Huddle\Zendesk\Facades\Zendesk',
+        // 'Teamwork' => 'Rossedman\Teamwork\Facades\Teamwork',
     ],
 
 ];

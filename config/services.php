@@ -35,4 +35,9 @@ return [
         'secret' => '',
     ],
 
+    'teamwork' => [
+        'key'  => getenv('TEAMWORK_TOKEN'),
+        'url'  => getenv('nicheprovider.teamwork.com'),
+    ],
+
 ];
