@@ -11,6 +11,7 @@ use Flash;
 // use Huddle\Zendesk\Services\ZendeskService as Zendesk;
 // use App\Facades\Zendesk as Zendesk;
 use Facades;
+use Huddle\Zendesk\Services\ZendeskService as Zendesk;
 
 class HomeController extends Controller
 {
